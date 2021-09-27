@@ -11,7 +11,7 @@ dice1.src="resources/images/dice"+p1+".png";
 dice2.src="resources/images/dice"+p2+".png";
 
 if(p1>p2){
-    head.innerHTML='<i class="fas fa-trophy"></i> Player 1 wins ';
+    head.innerHTML='<i class="fas fa-trophy"></i> Player 1 has won ';
 }else if(p1<p2){
     
     head.innerHTML='Player 2 wins <i class="fas fa-trophy"></i> ';
